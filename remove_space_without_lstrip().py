@@ -4,5 +4,5 @@ def custom_lstrip(me):
         you +=1
     return me[you:]
 
-text = input("Enter words: ")
+text = input("Enter a string with leading spaces: ")
 print("", custom_lstrip(text))
