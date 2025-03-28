@@ -1,11 +1,5 @@
-def custom_lower(me):
-    result = ""
-    for char in me:
-        if 'A' <= char <= 'Z':
-            result += chr(ord(char) + 32)
-        else:
-            result += char
-    return result
+def custom_lower(text):
+    return ''.join(chr(ord(c) + 32) if 'A' <= c <= 'Z' else c for c in text)
 
-text = input("Enter a string: ")
-print("", custom_lower(text))
+user_input = input("Enter a string: ")
+print("", custom_lower(user_input))
