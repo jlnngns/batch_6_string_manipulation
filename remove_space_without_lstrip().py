@@ -1,8 +1,8 @@
-def custom_lstrip(me):
-    you = 0
-    while you < len(me) and (me[you]) == ' ':
-        you +=1
-    return me[you:]
+def custom_lstrip(text):
+    index = 0
+    while index < len(text) and text[index] == ' ':
+        index +=1
+    return text[index:]
 
-text = input("Enter a string with leading spaces: ")
-print("", custom_lstrip(text))
+user_input = input("Enter a string with leading spaces: ")
+print("", custom_lstrip(user_input))
