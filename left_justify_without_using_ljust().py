@@ -3,4 +3,4 @@ def left_justify(text, width):
 
 user_input = input("Enter a string: ")
 width = int(input("Enter total width: "))
-print("Left justified:", left_justify(user_input, width))
+print("'"+left_justify(user_input, width)+"'")  
