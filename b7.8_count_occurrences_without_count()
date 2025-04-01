@@ -8,4 +8,4 @@ def custom_count(text, sub):
 
 text = input("Enter a string: ")
 sub = input("Enter substring to count: ")
-print(custom_count(text, sub)
+print(custom_count(text, sub))
